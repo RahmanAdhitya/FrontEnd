@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+  width: 1152px;
+  height: 700px;
+}
+
+.layer1 {
+  display: inline-block;
+}
+
+img {
+  width: 535px;
+  height: 738px;
+}
+
+.layer2 {
+  display: inline-block;
+  overflow: hidden;
+  width: 535px;
+  height: 738px;
+  padding-top: 107px;
+  padding-left: 71px;
+}
+#tipis {
+  font-weight: 100;
+  font-size: 36px;
+  font-family: Avenir;
+}
+
+#type {
+  width: 415px;
+  height: 91px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#harga {
+  margin-top: 31px;
+  width: 103px;
+  height: 31px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+#product {
+  margin-top: 48px;
+  width: 346px;
+  height: 131px;
+  font-family: Avenir;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#ukuran {
+  margin-top: 19px;
+  font-family: Avenir;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.85);
+}
+#tebal {
+  font-family: Avenir;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+#btn {
+  margin-top: 66px;
+  width: 147px;
+  height: 48px;
+  background-color: black;
+  color: aliceblue;
+}
